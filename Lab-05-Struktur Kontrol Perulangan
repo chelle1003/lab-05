@@ -1,0 +1,35 @@
+senin=["Alpro","Praktikum Alpro"," ","ICE"," "]
+selasa=[" ","Matematika Diskrit"," "," Statistik"," "]
+rabu=[" ","PKN","Jarkom","Praktikum Jarkom"," "]
+kamis=[" "," "," ","ArOrkom","Praktikum Alpro"]
+print("^^^^^^^^^^ Jadwal dan Sesi Mata Kuliah ^^^^^^^^^^")
+print()
+nama=input("Masukkan nama Anda:")
+print("Hi",nama)
+m=input("Masukkan hari yang ingin ditelusuri:")
+if m=="senin":
+    for i in range (5):
+        if senin[i]==" ":
+            pass
+        else:
+            print("Sesi ke-%d"%(i+1),senin[i])
+elif m=="selasa":
+    for i in range (5):
+        if selasa[i]==" ":
+            pass
+        else:
+            print("Sesi ke-%d"%(i+1),selasa[i]) 
+elif m=="rabu":
+    for i in range (5):
+        if rabu[i]==" ":
+            pass
+        else:
+            print("Sesi ke-%d"%(i+1),rabu[i])      
+elif m=="kamis":
+    for i in range (5):
+        if kamis[i]==" ":
+            pass
+        else:
+            print("Sesi ke-%d"%(i+1),kamis[i])
+else:
+    print("Anda tidak memiliki kelas di hari selain Senin-kamis, selamat menikmati liburan!!! ")  
